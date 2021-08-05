@@ -23,7 +23,7 @@ export function AddMovie({add, setMovie}) {
           <Modal.Body> <div>
                   <div className="bigDiv">
                       <label className="input">Title</label><br/>
-                      <input type="text" name="name" onChange={handleChange} />
+                      <input type="text" name="nameMovie" onChange={handleChange} />
                   </div>
                   <div className="bigDiv">
                   <label className="input">URL image</label><br/>
